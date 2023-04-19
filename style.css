@@ -1,0 +1,405 @@
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;600;700&family=PT+Sans&family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+body{
+    background-color: #f7e3b4;
+    display: flex;
+    justify-content: center;
+}
+.phone{
+    margin-top: 2rem;
+    max-width: 390px;
+    width: 100%; 
+    /* border: black solid 2px; */
+    height: 720px;
+    box-shadow: 1px  1px 10px  #000 ;
+    background-color:#e4c374 ;
+    border-radius: 50px;
+
+}
+.header{
+    margin: 2rem 1rem ;
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+.header p{
+    margin-top: .7rem;
+    font-size: 14px;
+}
+.header h1{
+    font-size: 30px;
+    font-weight: 700;
+}
+.header span{
+    color: #000;
+}
+.header .rotate{
+    display: inline-block;
+  transform: rotate(180deg);
+}
+.phone-figure{
+  position: relative;
+  height: 230px;
+}
+.phone-figure img{
+    position: absolute;
+}
+.couch {
+    position: absolute;
+    right: 1%;
+}
+.moon{
+    position: absolute;
+    left: 61%;
+    transform: scaleX(-1);
+    padding-top: .7rem;
+}
+.phone-text{
+    text-align: center;
+}
+.phone-text h1{
+    color: #fff;
+    font-size: 40px;
+    line-height: 1.5;
+    padding-bottom: 1rem;
+}
+.phone-text p{
+    line-height: 1.5;
+    color: #3e2f70;
+    font-weight: 500;
+}
+.phone-text span{
+    color: #000;
+}
+.btn{
+    text-align: center;
+    margin-top: 4rem;
+}
+.btn button{
+    padding: .8rem 6rem;
+    background-color: #000;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+}
+.labels{
+   text-align: center;
+   padding-top: 20%;
+   
+}
+input{
+    width: 300px;
+    justify-self: center;
+    padding: 1rem;
+    margin-top: 1.5rem;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+}
+.labels .bx {
+    position: absolute;
+    right: 30%;
+    font-size: 20px;
+    font-weight: 300;
+}
+.bx-lock-alt{
+    top: 44.5%;
+}
+.bx-envelope{
+    top: 35.5%;
+}
+.btn__2{
+    margin-top: 3rem;
+    
+}
+.btn button{
+    padding: .8rem 8rem;
+}
+.reset{
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 14px;
+}
+.reset p{
+    color: #fff;
+    padding: 1rem 0;
+}
+.reset a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+}
+.header img{
+    border-radius: 50%;
+}
+.search{
+    display: flex;
+    justify-content: space-around;
+    padding: .5rem 1rem;
+    vertical-align: middle;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+     
+}
+.navbar{
+    display: flex;
+    padding: 0 1rem;
+    justify-content: space-between;
+}
+.navbar-find input{
+    margin-top: 0;
+    width: 110px;
+    font-size: 8px;
+    padding:0 1rem;
+    background-color: #f2f2f2;
+}
+
+
+/* #search{
+    padding-left: 2rem;
+}
+.navbar-find input{
+    margin-top: 0;
+    width: 150px;
+    font-size: 8px;
+    padding: .5rem 2rem;
+    position: relative;
+}
+.navbar{
+    display: flex;
+    padding: 0 1rem;
+    justify-content: space-between;
+}
+.bx-signal-4{
+    position: absolute; 
+    font-size: 16px;
+    left: 46%;
+    top: 21.9%;
+    transform: rotate(270deg);
+    color: #999;
+}
+.bx-search-alt-2{
+    position: absolute;
+    left: 71%;
+    top: 22%;
+    font-size: 16px;
+    color: #999;
+} */
+.navbar p{
+    font-size: 14px;
+    color: #fff;
+    font-weight: 600;
+    margin-top: .5rem;
+}
+.event{
+    display: flex;
+    margin: 1rem;
+}
+.event img{
+    border-radius: 10px 0 0 10px;
+    background-color: #fff;
+
+}
+.event-content{
+    position: relative;
+    background-color: #ffffff;
+    width: 100%;
+    border-radius: 0 10px 10px 0;
+
+}
+.event-content h3{
+    font-size: 16px;
+    padding: .2rem 0 ;
+    padding-left: .5rem;
+}
+.event-content p{
+    font-size: 8px;
+    padding-left: .5rem;
+
+}
+.event-content h4{
+    font-size: 10px;
+    padding: .3rem 0 ;
+    padding-left: .5rem;
+
+}
+.event-content h2{
+    font-size: 12px;
+    padding: .1rem .5rem;
+    background-color: #000;
+    color: #fff;
+    position: absolute;
+    left: 79%;
+    bottom: 8%;
+}
+.btn__3{
+    margin-top: 0;
+
+}
+.btn__3 button{
+    padding: .8rem 6rem;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.head{
+    margin: 2rem;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+.head p{
+    font-size: 12px;
+}
+.bx-dots-vertical-rounded{
+    background-color: #fff;
+    color: #000;
+    border-radius: 50%;
+    padding: .2rem;
+}
+.title{
+    margin: 0 2rem;
+    position: relative;
+}
+.bxs-user{
+    position: absolute;
+    top: 54%;
+    left: 90%;
+}
+.dates{
+    margin: 0 2rem;
+    display: flex;
+    gap: 1.7rem;
+    justify-content: space-between;
+}
+.dates input{
+    width: 120px;
+    
+}
+
+.title .bxs-map{
+    position: absolute;
+    top: 54%;
+    left: 90%;
+}
+.bxs-cloud-upload{
+    position: absolute;
+    top: 54%;
+    left: 90%;
+    font-size: 20px;
+}
+.head a{
+    color: #fff;
+    font-size: 14;
+}
+.figure2{
+    text-align: center;
+}
+.figure2 img{
+    border-radius: 10px;
+}
+.event-text{
+    display: flex;
+    margin: 2rem;
+    justify-content: space-between;
+    color: #fff;
+    font-size: 18px;
+}
+.event-text .last{
+    padding: .3rem .8rem;
+    margin-top: -.3rem;
+    background-color: #000;
+    font-weight: 500;
+    font-size: 16px;
+}
+.event-text2{
+    display: flex;
+    margin: 1rem 2rem;
+    font-size: 12px;
+    justify-content: space-between;
+    font-weight: 600;
+}
+.event-text2 .p1{
+    color: #fff;
+}
+.event-text2 .bxs-map{
+    color: #000;
+    font-size: 22px;
+    vertical-align: middle;
+}
+.speaker img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+
+}
+.profile{
+    margin: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+.speaker{
+    text-align: center;
+}
+.speaker h4{
+    font-size: 10px;
+    color: #fff;
+    font-weight: 500;
+    padding: .4rem 0;
+} 
+.speaker p{
+    font-size: 6px;
+    line-height: 1.5;
+    margin-bottom: .5rem;
+}
+.speaker .bx{
+    padding: 0 .3rem;
+}
+.btn__5{
+    margin: 2rem;
+    padding: .5rem 0;
+}
+@media (max-width:420px){
+    body{
+        background-color: #e4c374;
+        display: flex;
+        justify-content: center;
+    }
+    .phone{
+        box-shadow: none;
+        background-color:#e4c374 ;
+        margin-top: .5rem;
+        height: auto;
+    }
+    .labels .bx {
+        display: none;
+    }
+    .header{
+        margin: 2rem 1rem ;
+        margin-top: 2rem;
+        display: flex;
+        justify-content: space-between;
+        color: #fff;
+    }
+    
+       
+}
+@media (max-width:360px){
+    input{
+        width: 270px;
+        margin: .4rem 0rem;
+    }
+    .dates{
+        display: grid;
+
+    }
+    
+}
